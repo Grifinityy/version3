@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ff7373;
+
+}
+.layout {
+    max-width: 700px;
+    margin: auto;
+    background: rgb(255, 63, 63);
+    padding: 10px;
+}
+
+.container{
+    display: grid;
+    height: 100%;
+    grid-template-columns:  20% 20% 20% 20% 20% ;
+    grid-template-rows: 5% 20% 20% 20% 20%;
+    grid-template-areas: 
+    "header header header header header"
+    "left1 main main main right1"
+    "left2 main main main right2"
+    "left3 shopall accessories about right3"
+    "footer footer footer footer footer";
+    text-align:center;
+    grid-gap: 0.2rem;
+    margin: auto;
+}
+/*this is the version of the header that will be  */
+header{
+    
+    grid-area: header;
+    border-radius:var(--main-radius);
+    padding-top: var(--main-padding);
+    
+}
+header:not(menu, h1, nav){
+    display: block;
+
+}
+main{
+     background: #ff8975;
+     grid-area: main;
+
+     background-image: url('../images/');
+    background-position: center;
+
+}
+
+#gallery{
+    background: #ff8975;
+    grid-area: gallery;
+    
+
+}
+
+
+#l1:hover{
+      background-image: url('../images/l1hover.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: auto;
+       
+}   
+#l2:hover{
+       background-image: url('../images/l2hover.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       margin: auto; 
+}
+#l3:hover{
+    background-image: url('../images/l3hover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto; 
+}
+#r1:hover{
+    background-image: url('../images/r1hover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto; 
+}
+#r2:hover{
+    background-image: url('../images/r2hover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto; 
+}
+#r3:hover{
+    background-image: url('../images/r3hover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto; 
+}
+
+
+
+#shopall{
+    background: #db2d2d;
+    grid-area: shopall;
+}
+#accessories{
+    background: #ff7f29;
+    grid-area: accessories; 
+}
+#about{
+    background: #ffb01f;
+    grid-area: about;
+}
+#galler2{
+    background: #ff8975;
+    grid-area: galler2;
+}
+
+footer{
+    background: #1de7ab;
+    grid-area: footer;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(61, 26, 44);
+}
+
+
+
+iframe{
+    width:30vw;
+    display:inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background: #555;
+  }
+  
+  .content {
+    max-width: 700px;
+    margin: auto;
+    background: rgb(255, 201, 201);
+    padding: 10px;
+  }
+
+
+
+
+
