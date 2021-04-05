@@ -1,0 +1,15 @@
+h2 {
+    text-align: center;
+    color: blueviolet;
+}
+
+body{
+    background-image: url(../images/blktrip.png);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
