@@ -6,9 +6,8 @@ h1{
     text-align: center;
 }
 body{
-    margin: 0;
+    text-align: center;
     background-image: url(../images/blktrip.png);
-
 }
 
 
@@ -21,8 +20,10 @@ body{
 
 
 
-
-
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
 
 
 
