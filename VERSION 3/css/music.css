@@ -1,0 +1,35 @@
+h1{
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: #ed1c57;
+    text-align: center;
+}
+body{
+    text-align: center;
+    background-image: url(../images/blktrip.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
+
+
+
+
+
+iframe{
+    width:30vw;
+    display:inline;
+}
