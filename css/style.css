@@ -1,11 +1,16 @@
-body {
+
+
+body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ff7373;
-
+  background-color: #ffffff;
+  cursor: cell;
 }
-.layout {
-    max-width: 700px;
+
+
+
+.layout{
+    max-width: 800px;
     margin: auto;
     background: rgb(255, 63, 63);
     padding: 10px;
@@ -15,7 +20,7 @@ body {
     display: grid;
     height: 100%;
     grid-template-columns:  20% 20% 20% 20% 20% ;
-    grid-template-rows: 5% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     grid-template-areas: 
     "header header header header header"
     "left1 main main main right1"
@@ -39,7 +44,7 @@ header:not(menu, h1, nav){
 
 }
 main{
-     background: #ff8975;
+     background: #000000;
      grid-area: main;
 
      background-image: url('../images/');
@@ -47,51 +52,46 @@ main{
 
 }
 
-#gallery{
-    background: #ff8975;
-    grid-area: gallery;
-    
-
-}
 
 
-#l1:hover{
+
+#left1:hover{
       background-image: url('../images/l1hover.png');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       margin: auto;
-       
+      color: crimson;
 }   
-#l2:hover{
+#left2:hover{
        background-image: url('../images/l2hover.png');
        background-repeat: no-repeat;
        background-size: cover;
        background-position: center;
        margin: auto; 
 }
-#l3:hover{
+#left3:hover{
     background-image: url('../images/l3hover.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: auto; 
 }
-#r1:hover{
+#right1:hover{
     background-image: url('../images/r1hover.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: auto; 
 }
-#r2:hover{
+#right2:hover{
     background-image: url('../images/r2hover.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: auto; 
 }
-#r3:hover{
+#right3:hover{
     background-image: url('../images/r3hover.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,18 +113,15 @@ main{
     background: #ffb01f;
     grid-area: about;
 }
-#galler2{
-    background: #ff8975;
-    grid-area: galler2;
-}
 
 footer{
-    background: #1de7ab;
+    background: #ffffff;
     grid-area: footer;
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    color: rgb(61, 26, 44);
+   
+    color: rgb(189, 183, 186);
 }
 
 

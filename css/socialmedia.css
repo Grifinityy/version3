@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    background-image: url(../images/blktrip.png);
+}
+
+   .fa {
+     padding: 20px;
+     font-size: 30px;
+     width: 30px;
+     text-align: center;
+     text-decoration: none;
+     margin: 5px 2px;
+     border-radius: 50%;
+     display: inline-block;
+   }
+   
+   .fa:hover {
+       opacity: 0.7;
+   }
+   
+   .fa-facebook {
+     background: #f34720;
+     color: #ffe17e;
+   }
+   
+   .fa-twitter {
+     background: #f34720;
+     color: #ffe17e;
+     
+   }
+   
+   .fa-instagram {
+     background: #f34720;
+     color: #ffe17e;
+     text-align: center;
+   }
+   
+   .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    
+    h2 {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #f34720;
+        font-size: 30px;
+    }
+  body{
+      text-align: center;
+      background-image: url(../images/blktrip.png);
+  }
+  h3{
+      text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #f34720;
+        font-size: 30px;
+    }
+  
+  .iconify{
+   
+     color: #f34720;
+     text-align: center;
+     width: 60px;
+     height: 60px;
+  }  
+  
+  footer{
+      background: #f34720;
+      grid-area: footer;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 15px;
+      width: 100vw !important;
+      color: rgb(61, 26, 44);
+  }
